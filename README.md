@@ -1,3 +1,5 @@
+
+#Live :https://dashboard-widgets-app.vercel.app/
 # Dashboard Application
 
 A dynamic dashboard application built with Next.js, React, TypeScript, Zustand, and Tailwind CSS. This application allows users to dynamically add and remove widgets from different categories with a polished, professional UI and enhanced user experience.
