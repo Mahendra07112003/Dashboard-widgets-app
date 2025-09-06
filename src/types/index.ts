@@ -8,7 +8,7 @@ export type Widget = {
   export type Category = {
     id: string;
     name: string;
-    widgetIds: string[];
+    widgets: Widget[];
   };
   
   export type DashboardData = {

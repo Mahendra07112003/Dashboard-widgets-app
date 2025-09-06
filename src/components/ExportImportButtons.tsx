@@ -24,7 +24,7 @@ export default function ExportImportButtons() {
       document.body.removeChild(link);
       URL.revokeObjectURL(url);
       showToast('success', 'Dashboard data exported successfully!');
-    } catch (error) {
+    } catch (_error) {
       showToast('error', 'Failed to export dashboard data');
     }
   };
@@ -50,7 +50,7 @@ export default function ExportImportButtons() {
         } else {
           showToast('error', 'Invalid file format');
         }
-      } catch (error) {
+      } catch (_error) {
         showToast('error', 'Failed to parse imported file');
       }
     };
